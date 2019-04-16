@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="shapes_tools" id="2" name="Merge Layers">
+      <OPTION type="boolean" id="SRCINFO" name="Add Source Information">TRUE</OPTION>
+      <OPTION type="boolean" id="MATCH" name="Match Fields by Name">TRUE</OPTION>
+      <INPUT_LIST type="shapes_list" id="INPUT" name="Layers">
+        <MERGED type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/gr201708150/AppData/Local/Temp/processing_2a0713c2645948a8b982404d010b7597/2a43c8209900416f8b2778930df97221/MERGED.shp</FILE>
+        </MERGED>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/gr201708150/AppData/Local/Temp/processing_2a0713c2645948a8b982404d010b7597/79f8a1b5198c4225b8ea34d558c9eb5d/INPUT.shp</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="MERGED" name="Merged Layer">Merged Layers</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="STRING">Source</FIELD>
+        <FIELD TYPE="STRING">Source</FIELD>
+        <FIELD TYPE="LONGINT">osm_id</FIELD>
+        <FIELD TYPE="STRING">name</FIELD>
+        <FIELD TYPE="STRING">type</FIELD>
+        <FIELD TYPE="LONGINT">lulcid</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]
+</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
